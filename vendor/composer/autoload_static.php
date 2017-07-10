@@ -10,7 +10,6 @@ class ComposerStaticInit6a001d5504f08487c0a1453f1125fc73
         'W' => 
         array (
             'WooProductsCF7\\' => 15,
-            'WPExpress\\' => 10,
         ),
     );
 
@@ -19,35 +18,9 @@ class ComposerStaticInit6a001d5504f08487c0a1453f1125fc73
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
-        'WPExpress\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/page-carbajal/wpexpress-query/source',
-            1 => __DIR__ . '/..' . '/page-carbajal/wpexpress/source',
-        ),
     );
 
     public static $classMap = array (
-        'WPExpress\\API\\BaseAPI' => __DIR__ . '/..' . '/page-carbajal/wpexpress/source/API/BaseAPI.class.php',
-        'WPExpress\\Admin\\BaseMetaBox' => __DIR__ . '/..' . '/page-carbajal/wpexpress/source/Admin/BaseMetaBox.class.php',
-        'WPExpress\\Admin\\BaseSettingsPage' => __DIR__ . '/..' . '/page-carbajal/wpexpress/source/Admin/BaseSettingsPage.class.php',
-        'WPExpress\\Collections\\MetaBoxCollection' => __DIR__ . '/..' . '/page-carbajal/wpexpress/source/Collections/MetaBoxCollection.class.php',
-        'WPExpress\\Contracts\\BaseWordPressFilters' => __DIR__ . '/..' . '/page-carbajal/wpexpress/source/Contracts/BaseWordPressFilters.class.php',
-        'WPExpress\\Database\\Taxonomy' => __DIR__ . '/..' . '/page-carbajal/wpexpress-query/source/Database/Taxonomy.class.php',
-        'WPExpress\\Database\\Transient' => __DIR__ . '/..' . '/page-carbajal/wpexpress-query/source/Database/Transient.class.php',
-        'WPExpress\\Database\\User' => __DIR__ . '/..' . '/page-carbajal/wpexpress-query/source/Database/User.class.php',
-        'WPExpress\\Database\\UserRole' => __DIR__ . '/..' . '/page-carbajal/wpexpress-query/source/Database/UserRole.class.php',
-        'WPExpress\\Model\\BaseModel' => __DIR__ . '/..' . '/page-carbajal/wpexpress/source/Model/BaseModel.class.php',
-        'WPExpress\\Model\\BaseTaxonomy' => __DIR__ . '/..' . '/page-carbajal/wpexpress/source/Model/BaseTaxonomy.class.php',
-        'WPExpress\\Model\\BaseUser' => __DIR__ . '/..' . '/page-carbajal/wpexpress/source/Model/BaseUser.class.php',
-        'WPExpress\\Model\\BaseUserRole' => __DIR__ . '/..' . '/page-carbajal/wpexpress/source/Model/BaseUserRole.class.php',
-        'WPExpress\\Page' => __DIR__ . '/..' . '/page-carbajal/wpexpress/source/Page.class.php',
-        'WPExpress\\Post' => __DIR__ . '/..' . '/page-carbajal/wpexpress/source/Post.class.php',
-        'WPExpress\\Query' => __DIR__ . '/..' . '/page-carbajal/wpexpress-query/source/Query.class.php',
-        'WPExpress\\UI\\BaseRenderEngine' => __DIR__ . '/..' . '/page-carbajal/wpexpress/source/UI/BaseRenderEngine.class.php',
-        'WPExpress\\UI\\BaseResources' => __DIR__ . '/..' . '/page-carbajal/wpexpress/source/UI/BaseResources.class.php',
-        'WPExpress\\UI\\FieldCollection' => __DIR__ . '/..' . '/page-carbajal/wpexpress/source/UI/FieldCollection.class.php',
-        'WPExpress\\UI\\HTMLFieldParser' => __DIR__ . '/..' . '/page-carbajal/wpexpress/source/UI/HTMLFieldParser.class.php',
-        'WPExpress\\UI\\RenderEngine' => __DIR__ . '/..' . '/page-carbajal/wpexpress/source/UI/RenderEngine.class.php',
         'WooProductsCF7\\SettingsPage' => __DIR__ . '/../..' . '/src/SettingsPage.class.php',
         'WooProductsCF7\\SetupPlugin' => __DIR__ . '/../..' . '/src/SetupPlugin.class.php',
         'WooProductsCF7\\addCF7toProducts' => __DIR__ . '/../..' . '/src/addCF7toProducts.class.php',

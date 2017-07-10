@@ -3,8 +3,5 @@
         "psr-4":{
             "WooProductsCF7\\": "src/"
         }
-    },
-    "require":{
-        "page-carbajal/wpexpress": "^2.0"
     }
 }

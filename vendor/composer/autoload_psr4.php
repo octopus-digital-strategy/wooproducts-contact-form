@@ -7,5 +7,4 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'WooProductsCF7\\' => array($baseDir . '/src'),
-    'WPExpress\\' => array($vendorDir . '/page-carbajal/wpexpress-query/source', $vendorDir . '/page-carbajal/wpexpress/source'),
 );
