@@ -1,0 +1,21 @@
+{
+    "name": "page-carbajal/wpexpress",
+    "type": "library",
+    "license": "GNU-3.0",
+    "homepage": "https://github.com/Page-Carbajal/WPExpress",
+    "authors":[
+        {
+            "name": "Software Engineer - Page Carbajal",
+            "homepage": "http://pagecarbajal.com"
+        }
+    ],
+    "autoload": {
+        "psr-4":{
+            "WPExpress\\": "source/"
+        }
+    },
+    "require": {
+        "php": ">=5.5",
+        "page-carbajal/wpexpress-query": "^0.10.4"
+    }
+}

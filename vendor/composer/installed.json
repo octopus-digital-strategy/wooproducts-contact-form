@@ -1,0 +1,77 @@
+[
+    {
+        "name": "page-carbajal/wpexpress-query",
+        "version": "0.10.4",
+        "version_normalized": "0.10.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Page-Carbajal/WPExpress-Query.git",
+            "reference": "f81c2d435994324dc3a4d295da40b5d790711930"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Page-Carbajal/WPExpress-Query/zipball/f81c2d435994324dc3a4d295da40b5d790711930",
+            "reference": "f81c2d435994324dc3a4d295da40b5d790711930",
+            "shasum": ""
+        },
+        "time": "2016-02-10T17:05:55+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "WPExpress\\": "source/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GNU-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Page Carbajal",
+                "email": "awesome@pagecarbajal.com"
+            }
+        ],
+        "description": "A WPDB abstraction",
+        "homepage": "https://github.com/Page-Carbajal/WPExpress"
+    },
+    {
+        "name": "page-carbajal/wpexpress",
+        "version": "2.0.3",
+        "version_normalized": "2.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Page-Carbajal/WPExpress.git",
+            "reference": "56d81ac8415ea47e10e7716b1bfed8da8b0da8da"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Page-Carbajal/WPExpress/zipball/56d81ac8415ea47e10e7716b1bfed8da8b0da8da",
+            "reference": "56d81ac8415ea47e10e7716b1bfed8da8b0da8da",
+            "shasum": ""
+        },
+        "require": {
+            "page-carbajal/wpexpress-query": "^0.10.4",
+            "php": ">=5.5"
+        },
+        "time": "2016-10-26T17:51:37+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "WPExpress\\": "source/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GNU-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Software Engineer - Page Carbajal",
+                "homepage": "http://pagecarbajal.com"
+            }
+        ],
+        "homepage": "https://github.com/Page-Carbajal/WPExpress"
+    }
+]
